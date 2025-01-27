@@ -1,32 +1,53 @@
+algorithm: blake2b
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: blake2s
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: md5
+hash length: 32
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: md5-sha1
+hash length: 72
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: ripemd160
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha1
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
 algorithm: sha224
 hash length: 56
 shortest input: 1
 longest input: 2,147,483,648
 
 
+algorithm: sha256
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
 algorithm: sha384
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 96 @ 1
-
-
-algorithm: sha3_384
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 96 @ 1
-
-
-algorithm: sha1
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 40 @ 1
-
-
-algorithm: sha512_224
-hash length: 56
+hash length: 96
 shortest input: 1
 longest input: 2,147,483,648
 
@@ -37,92 +58,55 @@ shortest input: 1
 longest input: 2,147,483,648
 
 
-algorithm: blake2b
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 128 @ 1
-
-
-algorithm: shake_128
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hexdigest() missing required argument 'length' (pos 1)
-
-
-algorithm: md5-sha1
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 72 @ 1
-
-
-algorithm: sha512_256
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 64 @ 1
-
-
 algorithm: sha3_256
-hash length: 56
+hash length: 64
 shortest input: 1
 longest input: 2,147,483,648
-ERROR: hash length changed 56 != 64 @ 1
 
 
-algorithm: sha256
-hash length: 56
+algorithm: sha3_384
+hash length: 96
 shortest input: 1
 longest input: 2,147,483,648
-ERROR: hash length changed 56 != 64 @ 1
-
-
-algorithm: ripemd160
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 40 @ 1
-
-
-algorithm: sha512
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 128 @ 1
 
 
 algorithm: sha3_512
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha512
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha512_224
 hash length: 56
 shortest input: 1
 longest input: 2,147,483,648
-ERROR: hash length changed 56 != 128 @ 1
+
+
+algorithm: sha512_256
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: shake_128
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
 
 
 algorithm: shake_256
-hash length: 56
+hash length: 40
 shortest input: 1
 longest input: 2,147,483,648
-ERROR: hexdigest() missing required argument 'length' (pos 1)
-
-
-algorithm: md5
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 32 @ 1
-
-
-algorithm: blake2s
-hash length: 56
-shortest input: 1
-longest input: 2,147,483,648
-ERROR: hash length changed 56 != 64 @ 1
 
 
 algorithm: sm3
-hash length: 56
+hash length: 64
 shortest input: 1
 longest input: 2,147,483,648
-ERROR: hash length changed 56 != 64 @ 1
