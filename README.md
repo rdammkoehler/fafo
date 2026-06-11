@@ -1,0 +1,126 @@
+# FAFO
+
+A repo where I find out
+
+## hash_length_proof
+
+Within reason, does the length of the input change the length of the hash?
+
+Hypothesis: No, the length of the hash value is uniform for any input
+
+Proof:
+
+algorithm: blake2b
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: blake2s
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: md5
+hash length: 32
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: md5-sha1
+hash length: 72
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: ripemd160
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha1
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha224
+hash length: 56
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha256
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha384
+hash length: 96
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha3_224
+hash length: 56
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha3_256
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha3_384
+hash length: 96
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha3_512
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha512
+hash length: 128
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha512_224
+hash length: 56
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sha512_256
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: shake_128
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: shake_256
+hash length: 40
+shortest input: 1
+longest input: 2,147,483,648
+
+
+algorithm: sm3
+hash length: 64
+shortest input: 1
+longest input: 2,147,483,648
+
+
